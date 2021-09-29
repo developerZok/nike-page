@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.header-section, .footer-section{
+    background-color: #322E41;
+}
+.header{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    min-height: 65px;
+}
+.header ul li a{
+    text-decoration: none;
+    margin-left: 28px;
+    color: white;
+}
+ul li{
+    list-style-type: none;
+}
+.header ul, .footer-ul{
+    display: flex;
+}
+.active{
+    background-color: #ffffff;
+    color: #D47300 !important;
+    padding: 23px 14px;
+}
+/* header end */
+/* head */
+.head-section{
+    background-image: url(./image/Nike-Adapt-BB\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.head h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.head p{
+    font-size: 18px;
+}
+/* head end */
+/* shoe review */
+.shoe-review-section{
+    background-color: #E5E5E5;
+}
+.shoe-review{
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    justify-content: space-between;
+}
+.nike-run{
+    width: 540px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+.nike-run h3{
+    padding: 20px 0 10px 0;
+}
+.nike-run p{
+    color: #9B9B9B;
+}
+
+.min-nikes{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.nike-air{
+    width: 240px;
+    height: 218px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 15px;
+    text-align: center;
+}
+.nike-air h3{
+    padding: 10px 0 10px 0;
+    color: #2C2A2A;
+    font-size: 22px;
+    font-weight: bold;
+}
+.nike-air p{
+    font-size: 14px;
+    color: #9B9B9B;
+    text-align: left;
+}
+.three, .four{
+    margin-top: 29px;
+}
+/* shoe review end */
+/* footer nike */
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 37px 0 57px 0;
+}
+.input-text{
+    width: 350px;
+    height: 34px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.input-submit{
+    width: 350px;
+    height: 25px;
+    font-size: 16px;
+    background: #544294;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+.text-area{
+    max-width: 350px;
+    height: 86px;
+    font-size: 18px;
+    margin: 11px 0 10px 0;
+    border-radius: 6px;
+}
+.footer-input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-ul ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-ul ul li{
+    margin-bottom: 10px;
+}
+.footer-ul-right{
+    margin-right: 68px;
+}
+.footer-active{
+    color: #D47300 !important;
+}
